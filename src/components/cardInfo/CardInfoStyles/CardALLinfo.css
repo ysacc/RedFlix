@@ -1,0 +1,133 @@
+.cardInfo__header {
+    width: 100%;
+    display: flex;
+    color: aliceblue;
+    padding: 0 0 0 6vw;
+    height: 26vw;
+    overflow: hidden;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cardInfo__imgContainer {
+    right: 0;
+    z-index: 1;
+    width: 45vw;
+    height: 26vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.cardInfo__imgContainer span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.174);
+}
+
+.cardInfo__imgContainer p {
+    height: 100%;
+    position: absolute;
+    box-shadow: -20em -9em 20em 13em rgba(0, 0, 0, 0.864);
+}
+
+.cardInfo__img {
+    width: 100%;
+    height: 100%;
+}
+
+.cardInfo__dateContainer {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardInfo__h1 {
+    top: 2em;
+    position: relative;
+    z-index: 10;
+    font-size: 3vw;
+    font-weight: 700;
+    font-family: 'Enriqueta', serif;
+}
+
+.cardInfo__spanDate {
+    z-index: 10;
+    display: flex;
+    padding-top: 8em;
+    justify-content: center;
+    font-size: 1vw;
+    gap: 1.5em;
+    color: rgba(255, 255, 255, 0.592);
+}
+
+.cardInfo__Date {
+    overflow: hidden;
+    width: 2.2em;
+    height: 1em;
+    display: flex;
+}
+
+.cardInfo__voteContainer {
+    display: flex;
+    gap: 1em;
+}
+
+.cardInfo__voteContainer button {
+    cursor: pointer;
+    border: 0.1vw solid rgba(255, 255, 255, 0.592);
+    border-radius: 0.5em;
+    font-size: 1vw;
+    height: 2vw;
+    margin-top: -0.3vw;
+    font-weight: 800;
+    background-color: black;
+    color: white;
+}
+
+.cardInfo__voteContainer button:hover {
+    color: black;
+    background-color: rgb(255, 0, 0);
+    border: 0.1vw solid rgb(0, 0, 0);
+}
+
+.cardInfo__vote {
+    color: rgba(86, 253, 61, 0.703);
+}
+
+.cardInfo__overviewContainer {
+    text-align: initial;
+    position: relative;
+    z-index: 10;
+    top: 2em;
+    padding-left: 3em;
+    width: 40vw;
+    height: 20em;
+    font-size: 0.9vw;
+    font-weight: 700;
+    font-family: 'Enriqueta', serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    color: rgba(255, 255, 255, 0.664);
+}
+
+.cardInfo__h2 {
+    padding-left: 2em;
+}
+
+.cardInfo__ConatinerVideo {
+    right: 0;
+    width: 45vw;
+    height: 26vw;
+    z-index: 10;
+    position: absolute;
+}
+
+.viedo {
+    width: 100%;
+    height: 100%;
+
+}

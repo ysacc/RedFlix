@@ -1,0 +1,76 @@
+.trending__container {
+    width: 100%;
+    display: flex;
+    padding: 1em;
+    overflow: hidden;
+    position: relative;
+}
+
+.trending__movement {
+    display: flex;
+    width: 300%;
+    transition: transform 300ms ease;
+}
+
+.CardTrending__header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 11.6vw;
+}
+
+.CardTrending__imgContainer {
+    border: 0.3vw solid rgb(0, 0, 0);
+}
+
+.CardTrending__imgContainer:hover {
+    border: 0.4vw solid rgb(255, 255, 255);
+    ;
+}
+
+.CardTrending__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+
+.Cartrending__h3 {
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.trending__btn {
+    font-size: 1.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    font-weight: 1000;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    z-index: 1;
+    color: var(--border-color);
+    background-color: transparent;
+}
+
+.trending__btn:hover {
+    filter: brightness(1.05);
+    background-color: rgba(0, 0, 0, 0.504);
+}
+
+.trendingbtn__left {
+    left: 0.2em;
+
+}
+
+.trendingbtn__right {
+    right: 0.2em;
+}
